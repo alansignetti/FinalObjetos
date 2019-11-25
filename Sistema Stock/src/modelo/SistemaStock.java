@@ -39,4 +39,12 @@ public class SistemaStock {
 	
 	
 	
+//	1 +traerProducto(String descripcion): Producto			
+//	2 +agregarProducto(String descripcion, double precioUnitario): boolean	
+//	Exception si la descripcion ya existe para otro producto			
+//	3 +traerSucursal(String direccion): Sucursal			
+//	4 +agregarSucursal(String direcc1on) boolean			
+//	Exception si la dirección ya existe
+	
+	
 }
