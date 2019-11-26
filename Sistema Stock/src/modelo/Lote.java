@@ -22,7 +22,7 @@ public class Lote {
 	}
 	@Override
 	public String toString() {
-		return "Lote [sucursal=" + sucursal + ", producto=" + producto + ", fechaAlta=" + fechaAlta
+		return "\nLote Producto= " + producto.getIdProducto() + ", Sucursal=" + sucursal.getIdSucursal() + ","+" fechaAlta=" + fechaAlta
 				+ ", cantidadInicial=" + cantidadInicial + ", cantidadActual=" + cantidadActual + ", activo=" + activo
 				+ "]";
 	}
