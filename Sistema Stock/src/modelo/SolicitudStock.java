@@ -11,10 +11,14 @@ public class SolicitudStock extends Comprobante{
 		this.colaborador = colaborador;
 		this.aceptado = aceptado;
 	}
+	
 	@Override
 	public String toString() {
-		return "SolicitudStock [colaborador=" + colaborador + ", aceptado=" + aceptado + "]";
+		return "SolicitudStock [colaborador=" + colaborador + ", aceptado=" + aceptado + ", Fecha=" + getFecha()
+				+ ", Producto=" + getProducto().getIdProducto() + ", Cantidad=" + getCantidad() + ", Vendedor="
+				+ getVendedor() + "]";
 	}
+
 	public Empleado getColaborador() {
 		return colaborador;
 	}
