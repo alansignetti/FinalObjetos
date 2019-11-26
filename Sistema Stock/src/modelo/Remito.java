@@ -10,10 +10,16 @@ public class Remito extends Comprobante{
 		this.formaDePago = formaDePago;
 	}
 
+
 	@Override
 	public String toString() {
-		return "Remito [formaDePago=" + formaDePago + "]";
+		return "Remito [formaDePago=" + formaDePago + ", Fecha=" + getFecha()
+				+ ", Producto=" + getProducto().getIdProducto() + ", Cantidad=" + getCantidad() + ", Vendedor="
+				+ getVendedor() +"]";
 	}
+
+
+
 
 	public String getFormaDePago() {
 		return formaDePago;
