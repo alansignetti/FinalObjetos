@@ -155,6 +155,7 @@ public class Sucursal {
 	public SolicitudStock generarSolicitudStock(LocalDate fecha, Producto producto, int cantidad, Empleado vendedor) {
 
 		SolicitudStock generarSolicitudStock = null;
+		// Si generas una solicitud de stock se da por hecho, que no tenes stock de ese producto.
 		if (!this.validarConsumo(producto, cantidad)) {
 			generarSolicitudStock=new SolicitudStock(fecha, producto, cantidad, vendedor, null, false);
 		}
