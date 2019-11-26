@@ -3,17 +3,17 @@ package modelo;
 public class Producto {
 	private int idProducto;
 	private	String descripcion;
-	private	double preciounitario;
-	public Producto(int idProducto, String descripcion, double preciounitario) {
+	private	double precioUnitario;
+	public Producto(int idProducto, String descripcion, double precioUnitario) {
 		super();
 		this.idProducto = idProducto;
 		this.descripcion = descripcion;
-		this.preciounitario = preciounitario;
+		this.precioUnitario = precioUnitario;
 	}
 	
 	public String toString() {
-		return "Producto [idProducto=" + idProducto + ", descripcion=" + descripcion + ", preciounitario="
-				+ preciounitario + "]";
+		return "Producto [idProducto=" + idProducto + ", descripcion=" + descripcion + ", precioUnitario="
+				+ precioUnitario + "]";
 	}
 
 	public int getIdProducto() {
@@ -33,11 +33,11 @@ public class Producto {
 	}
 
 	public double getPreciounitario() {
-		return preciounitario;
+		return precioUnitario;
 	}
 
-	public void setPreciounitario(double preciounitario) {
-		this.preciounitario = preciounitario;
+	public void setPreciounitario(double precioUnitario) {
+		this.precioUnitario = precioUnitario;
 	}
 	
 	
